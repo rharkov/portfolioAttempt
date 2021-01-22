@@ -1,14 +1,14 @@
 .logo {
-  width: 25%;
-  height: 25%;
+  width: 2rem;
+  height: 2rem;
 }
 
 .nav-theme {
   background-color: #101018f8;
   font-size: 20px;
 }
-.navBar {
-  height: 25%;
+.nav-size {
+  height: 3rem;
 }
 
 .animate-navbar {

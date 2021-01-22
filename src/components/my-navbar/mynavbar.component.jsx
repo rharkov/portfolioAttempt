@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Logo from "../../assets/icons/avatar.webp";
-import "./mynavbar.style.css";
+import "./mynavbar.styles.css";
 
 const MyNavbar = () => {
   return (
@@ -11,7 +11,7 @@ const MyNavbar = () => {
         collapseOnSelect
         expand="md"
         variant="dark"
-        className="animate-navbar nav-theme justify-content-between"
+        className="animate-navbar nav-theme justify-content-between nav-size"
       >
         <Navbar.Brand href="#home">
           <img src={Logo} className="logo" alt="My Portfolio Logo" />
