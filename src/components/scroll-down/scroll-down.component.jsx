@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 
 const MyScroll = styled.div`
-  position: relative;
+  position: absolute;
   z-index: 1;
   bottom: 1.6em;
   display: flex;
